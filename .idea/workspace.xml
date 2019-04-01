@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359e634b-0793-41e6-beb8-e244d9c741a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/static/web/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Web/static/web/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/templates/Web/post_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/templates/Web/post_confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/templates/Web/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/Web/templates/Web/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Web/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="378">
+              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -53,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/templates/Web/post_confirm_delete.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="51">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -110,9 +105,9 @@
         <option value="$PROJECT_DIR$/Web/templates/Web/post_form.html" />
         <option value="$PROJECT_DIR$/Web/static/web/main.css" />
         <option value="$PROJECT_DIR$/Web/templates/Web/post_detail.html" />
-        <option value="$PROJECT_DIR$/Web/views.py" />
         <option value="$PROJECT_DIR$/Web/urls.py" />
         <option value="$PROJECT_DIR$/Web/templates/Web/post_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/Web/views.py" />
       </list>
     </option>
   </component>
@@ -143,32 +138,6 @@
             <path>
               <item name="Blog_App" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog_App" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog_App" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog_App" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog_App" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog_App" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog_App" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="Web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -239,7 +208,7 @@
       <updated>1553108435352</updated>
       <workItem from="1553108436678" duration="42166000" />
       <workItem from="1553793062817" duration="11599000" />
-      <workItem from="1554083416647" duration="8319000" />
+      <workItem from="1554083416647" duration="8573000" />
     </task>
     <task id="LOCAL-00001" summary="Create, Update, and Delete Posts">
       <created>1554125293568</created>
@@ -252,10 +221,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62084000" />
+    <option name="totallyTimeSpent" value="62338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="870" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -277,7 +247,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32871014" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32871014" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,16 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Web/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -522,8 +482,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Web/templates/Web/post_confirm_delete.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
