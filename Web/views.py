@@ -36,7 +36,7 @@ class PostCreateView(LoginRequiredMixin, CreateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
-
+# update view
 class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Post
     fields = ['title', 'content']
@@ -45,18 +45,19 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
-    def test_func(self):
+    def test_func(self):  # prevents other users from updating post
         post = self.get_object()
         if self.request.user == post.author:
             return True
         return False
 
+# delete view
 
 class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Post
     success_url = '/'
 
-    def test_func(self):
+    def test_func(self):  # prevents other users from deleting post of different users
         post = self.get_object()
         if self.request.user == post.author:
             return True
