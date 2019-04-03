@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from django.template.backends import django
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
@@ -127,3 +129,15 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_URL = 'login'
 
+EMAIL_BACKEND = "sendgrid_backend.SendgridBackend"
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = 'Malw0re'
+EMAIL_HOST_PASSWORD = '21khalid$'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+DEFAULT_FROM_EMAIL = 'youngkhalifah98@gmail.com'
+SENDGRID_API_KEY = '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'
+ACCOUNT_EMAIL_SUBJECT_PREFIX = 'Contact email received from my website.'
+
+
+SENDGRID_SANDBOX_MODE_IN_DEBUG = False

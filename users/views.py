@@ -3,6 +3,9 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
+from django.core.mail import send_mail
+from django.conf import settings
+from django.template.loader import  get_template
 
 
 # Create your views here.
