@@ -1,6 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="VIRU$">
     <words>
+      <w>gunicorn</w>
       <w>sendgrid</w>
       <w>smtp</w>
     </words>
