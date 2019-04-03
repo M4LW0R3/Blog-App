@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359e634b-0793-41e6-beb8-e244d9c741a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/VIRU_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog_App/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog_App/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog_App/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog_App/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Web/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/password_reset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +68,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/users/templates/users/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="79" lean-forward="true" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blog_App/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/templates/users/password_reset_confirm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -125,7 +126,6 @@
       <list>
         <option value="$PROJECT_DIR$/Web/templates/Web/about.html" />
         <option value="$PROJECT_DIR$/Web/forms.py" />
-        <option value="$PROJECT_DIR$/users/templates/users/login.html" />
         <option value="$PROJECT_DIR$/users/templates/users/register.html" />
         <option value="$PROJECT_DIR$/users/templates/users/logout.html" />
         <option value="$PROJECT_DIR$/Web/admin.py" />
@@ -153,6 +153,7 @@
         <option value="$PROJECT_DIR$/users/templates/users/password_reset_done.html" />
         <option value="$PROJECT_DIR$/Blog_App/urls.py" />
         <option value="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" />
+        <option value="$PROJECT_DIR$/users/templates/users/login.html" />
       </list>
     </option>
   </component>
@@ -288,7 +289,7 @@
       <workItem from="1553793062817" duration="11599000" />
       <workItem from="1554083416647" duration="9380000" />
       <workItem from="1554132156681" duration="22932000" />
-      <workItem from="1554244122229" duration="4521000" />
+      <workItem from="1554244122229" duration="5101000" />
     </task>
     <task id="LOCAL-00001" summary="Create, Update, and Delete Posts">
       <created>1554125293568</created>
@@ -301,7 +302,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90598000" />
+    <option name="totallyTimeSpent" value="91178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -522,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/templates/users/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/templates/users/logout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -540,16 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -609,8 +593,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users/templates/users/password_reset_confirm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-287">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/templates/users/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="79" lean-forward="true" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
         </state>
       </provider>
     </entry>
