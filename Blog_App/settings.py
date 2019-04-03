@@ -26,7 +26,7 @@ SECRET_KEY = '$d&1m@&gxz-c%&-goo_3gzp$x3ls2m6$s)66^jw^s=*4j4oten'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [kulteapp.herokuapp.com]
+ALLOWED_HOSTS = [ ]
 
 # Application definition
 
